@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<string.h>
+struct employee
+{
+int employeid;
+chat name[10];
+int mobile number;
+float salary;
+};
+int main()
+{
+struct employee e[20];
+int i;
+for(i=0;i<=20;i++)
+{
+printf("Enter employeid:");
+scanf("%d",&e[i].employeid);
+printf ("Enter name:");
+scanf("%s",e[i].name);
+printf ("Enter mobile number:");
+scanf("%d",&e[i].mobile number");
+printf ("Enter salary");
+scanf ("%f",&e[i].salary");
+}
+for(i=0;i<=20;i++)
+{
+printf ("%d\t %s\t %d\t %f\t",e[i].employeid,e[i].name,e[i].mobile number,e[i].salary);
+}
+return 0;
+}
